@@ -1,0 +1,218 @@
+.container{
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	color: #39454b;
+	font-size: 30px;
+	
+}
+
+#gah{
+	display:inline;
+	
+}
+
+h3{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	font-weight:400;
+	font-size: 37px;	
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: gray;
+	font-weight:400;
+	font-size: 25px;	
+}
+
+.about{
+	padding: 1.5em 0 0 1.5em;
+	text-align:center;
+	line-height: 2.5em;
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	color: gray;
+	font-weight:400;
+	font-size: 25px;
+}
+
+
+
+
+/* Button */
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	.button {
+		background-color: #98c593;
+		border: 0;
+		border-radius: 3.5em;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		height: 3.5em;
+		line-height: 3.5em;
+		outline: 0;
+		padding: 0 2em 0 2em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+		.button.down {
+			width: 5em;
+			height: 5em;
+			line-height: 4.5em;
+			padding: 0;
+			background-image: url('images/arrow.svg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			text-indent: -10em;
+			overflow: hidden;
+		}
+
+			.button.down.anchored {
+				bottom: 0;
+				border-bottom: 0;
+				border-radius: 3em 3em 0 0;
+				height: 4.5em;
+				margin-left: -2.5em;
+			}
+
+		.button.anchored {
+			position: absolute;
+			left: 50%;
+		}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		.button:hover {
+			background-color: #a8d5a3;
+		}
+
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		.button:active {
+			background-color: #88b583;
+		}
+
+		input[type="button"].style2,
+		input[type="submit"].style2,
+		input[type="reset"].style2,
+		.button.style2 {
+			background-color: transparent;
+			border: solid 2px #e5e6e7;
+			color: inherit;
+		}
+
+			input[type="button"].style2:hover,
+			input[type="submit"].style2:hover,
+			input[type="reset"].style2:hover,
+			.button.style2:hover {
+				background-color: rgba(145,146,147,0.035);
+			}
+
+			.button.style2.down {
+				background-image: url('images/arrow.svg');
+			}
+
+
+.intro{
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	height: 500px;
+		
+	
+	background-image: url('images/tutting.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	
+	text-decoration: none;
+
+	text-align: center;
+	vertical-align: middle;	
+	display:inline-block
+	position: relative;
+	
+	padding: 200px 0 0 0;
+}
+
+
+
+ul.team-members{
+	list-style:none;
+	font-size: 0px;
+	text-align: center;
+}
+
+ul.team-members li{
+	display:inline-block;
+	padding: 10px;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+}
+
+ul.team-members li img{
+	border-radius:100%;
+	max-width: 200px;
+	height: 200px;
+	margin:0 0 10px;
+}
+
+
+ul.team-members li p{
+	margin: 0 0 5px;
+}
+
+
+.foo img:nth-child(2){display:none}
+
+.foo:hover img:first-child{display:none}
+.foo:hover img:nth-child(2){display:inline-block}
+
+
+.the_team{
+	text-align: center;
+}
+
+hr{
+	width: 55%;
+}
+
+
+#mai{
+	display:none;
+	position: absolute;
+	top: 80%;
+	left: 35%;
+	background-image: url('images/mai_hello.png');
+	background-size: 500px;
+	background-repeat: no-repeat;
+	width: 600px;
+	height:500px;
+	color: rgba(0,0,0,0);
+}
